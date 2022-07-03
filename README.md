@@ -28,6 +28,8 @@ shows up.
 ### Solution
 
 (Credits to `async` from the Vite-dev community Discord)
+
+
 The problem is related with the Vite resolver. Two workarounds are:
 
 - Add `resolver.alias` property to `vitest.config.ts`:
